@@ -20,4 +20,8 @@ The model was trained for 20 epochs and the loss reduced from 50.27 to a minimum
 <img src="images/loss.png" alt="result image" width="300" height="300" >
 
 # Scope for future work
-The model used for audio encoder could be better made by plotting the spectrogram of the audio file and then using CNN model to get the intricate details of the speech.
+The model used for audio encoder could be better made by plotting the spectrogram of the audio file and then using CNN model to get the intricate details of the speech.<br>
+
+# Refrences
+1) VolTAGE: Volatility Forecasting via Text Audio Fusion with Graph Convolution Networks for Earnings Calls - Ramit Sawhney et al <br>
+2) Dataset - https://github.com/Earnings-Call-Dataset/MAEC-A-Multimodal-Aligned-Earnings-Conference-Call-Dataset-for-Financial-Risk-Prediction
