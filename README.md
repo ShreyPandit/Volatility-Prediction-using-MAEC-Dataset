@@ -10,10 +10,12 @@ Also these closing price needs to be used to calculate the average log volatilit
 2) An audio encoder would be made in order to encode the .npy files <br>
 3) Merging the 2 models and finally predicting the average log volatility of that stock for the next 3 days. <br>
 <img src="images/model.png" alt="result image" width="500" height="500" >
-# Other information <br>
+
+# Other information
 I have used Adam optimizer and Mean squared error as a loss <br>
 Only 100 companies have been used in order to train the model as the dataset is too large to train upon online sites like colab. <br>
-# Performance of the model <br>
+
+# Performance of the model
 The model was trained for 20 epochs and the loss reduced from 50.27 to a minimum of 1.29 <br>
 <img src="images/loss.png" alt="result image" width="300" height="300" >
 
